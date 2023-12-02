@@ -1,0 +1,429 @@
+body{
+	background: #effof1;
+    color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Titulo";
+    src: url("Fuentes/LouisGeorgeCafe.ttf") format("truetype");
+}
+
+h1{
+    font-family: Titulo;
+    color: black;
+}
+
+
+@font-face {
+    font-family: "Cuerpo";
+    src: url("Fuentes/CaviarDreams_Bold.ttf") format("truetype");
+}
+
+p{
+	font-family: Cuerpo;
+    color: black;
+}
+
+.nav-item{
+	
+    color: blue;
+
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#navbarNavDropdown{
+    width: 100%;
+    margin-left: 600px;
+    background-size: 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+}
+
+#ff{
+    margin-right: 50px;
+    transition: color 2s;
+    color: black;
+}
+#ff:hover{
+    color: #df8a46;
+    
+
+}
+
+.container-fluid{
+    font-family: Titulo;
+    font-size: 20px;
+    border-bottom: solid 2px #71644f;
+
+}
+
+#home{
+    width: 100%;
+    height: 500px;
+    margin-top: 5px;
+}
+
+
+
+.imagenes{
+    float: right;
+    width: 22%;
+    height: 250px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+#img{
+    width: 100%;
+}
+
+#texto{
+    width: 100%;
+}
+
+.texto_home{
+    font-family: Cuerpo;
+    width: 30%;
+    margin-left: 15px;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+#botton_home{
+    margin-left: 250px;
+    border-radius: 30px;
+    background-color: #bca692;
+    transition: color 2s;
+    color: #eff0f1;
+}
+
+#botton_home:hover{
+    color: black;
+}
+
+
+#fondo{
+    background-image: url("https://davewentzel.com/images/ds10.jpg");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.centrar{
+    width: 100%;
+    text-align: center;
+}
+
+#formulario{
+    font-family: "Cuerpo";
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 80%;
+    text-align: center;
+    border: solid 2px black;
+    width: 200px;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: rgba(115, 100, 79, .6) 9px 9px , rgba(133, 119, 101, .3) 15px 15px;
+    margin: 100px;
+    padding: 10px;
+}
+
+.diseño{
+    border-radius: 30px;
+    margin-top: 5px;
+    background-color: #bca692;
+    transition: color 2s;
+    color: #eff0f1;
+}
+
+.diseño:hover{
+    color: black;
+}
+
+#fondo3{
+    background-image: url("https://blog.fhgr.ch/wp-content/uploads/2016/06/shutterstock_227323147-2560x1440-c-default.jpg");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#formulario3{
+    font-family: "Cuerpo";
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 80%;
+    text-align: center;
+    border: solid 2px black;
+    width: 220px;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: rgba(115, 100, 79, .6) 9px 9px , rgba(133, 119, 101, .3) 15px 15px;
+    margin: 100px;
+    padding: 10px;
+}
+
+#fondo4{
+    background-image: url("https://wallpaperaccess.com/full/1943349.jpg");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#formulario4{
+    font-family: "Cuerpo";
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 80%;
+    text-align: center;
+    border: solid 2px black;
+    width: 225px;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: rgba(115, 100, 79, .6) 9px 9px , rgba(133, 119, 101, .3) 15px 15px;
+    margin: 100px;
+    padding: 10px;
+}
+
+.imagen{
+    float: left;
+    width: 40%;
+    height: 500px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.texto2{
+    color: black;
+    font-family: Cuerpo;
+    height: 100px;
+    margin-right: 90px;
+    margin-top: 60px;
+    text-align: justify;
+}
+
+#botton_test{
+    margin-left: 900px;
+    border-radius: 30px;
+    background-color: #bca692;
+    transition: color 2s;
+    color: #eff0f1;
+}
+
+#botton_test:hover{
+    color: black;
+}
+
+.ca{
+    float: left;
+    width: 25%;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.te{
+    color: black;
+    font-family: Cuerpo;
+    width: 40%;
+    margin-left: 600px;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.te1{
+    color: black;
+    font-family: Cuerpo;
+    width: 40%;
+    margin-left: 600px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.te2{
+    color: black;
+    font-family: Cuerpo;
+    width: 40%;
+    margin-left: 600px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.car{
+    float: right;
+    width: 22%;
+    height: 250px;
+    margin-right: 400px;
+    margin-top: 140px;
+}
+
+.tex{
+    color: black;
+    font-family: Cuerpo;
+    width: 40%;
+    margin-left: 40px;
+    margin-right: 550px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.text{
+    color: black;
+    font-family: Cuerpo;
+    margin-right: 550px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.text2{
+    color: black;
+    font-family: Cuerpo;
+    margin-right: 550px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+a.but {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    margin-left: 250px;
+    border-radius: 30px;
+    background-color: #bca692;
+    transition: color 2s;
+    color: #eff0f1;
+}
+
+a.but:hover{
+    color: black;
+}
+
+.fa{
+    font-family: "Cuerpo";
+    color: black;
+    display: flex;
+    height: 80%;
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+.carousel-inner{
+    font-family: "Cuerpo";
+    color: black;
+    height: 600px;
+    border-radius: 50px;  
+}
+
+a.but2 {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    height: 23px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #bca692;
+    transition: color 2s;
+    color: #eff0f1;
+}
+
+a.but2:hover{
+    color: black;
+}
+
+.t1{
+    color: black;
+    font-family: Titulo;
+    margin-right: 550px;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.t2{
+    color: black;
+    font-family: Cuerpo;
+    margin-right: 550px;
+    margin-left: 30px;   
+}
+
+.t3{
+    color: black;
+    font-family: Cuerpo;
+    margin-right: 550px;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: justify;
+    width: 525px;
+}
+
+.t4{
+    color: black;
+    font-family: Cuerpo;
+    margin-right: 550px;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    width: 525px;
+}
+
+.t5{
+    color: black;
+    font-family: Cuerpo;
+    margin-right: 550px;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    width: 525px;
+}
+
+#flario{
+    font-family: "Cuerpo";
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 60%;
+    text-align: center;
+    border: solid 2px black;
+    width: 220px;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: rgba(115, 100, 79, .6) 9px 9px , rgba(133, 119, 101, .3) 15px 15px;
+    padding: 10px;
+    float: right;
+    margin-right: 200px;
+}
+.subir{
+
+    width:5%;
+    margin-left: 1250px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
